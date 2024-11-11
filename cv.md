@@ -11,3 +11,23 @@ In college, I studied mechatronics, mobile robotics, microprocessor architecture
 
 Some time ago I became interested in Frontend Development, I studied the basics of HTML, CSS and JavaScript on my own.
 I believe, that diligence and the ability to learn will help me streamline my knowledge and gain new ones.
+
+### Skills:
+
+* HTML5, CSS3
+* JavaScript (Basics)
+* С (Basics)
+* Git/GitHub
+* Arduino
+
+### Code Example
+
+```
+function multiply(a, b){
+ return a * b
+}
+
+let result = multiply(5, 3); //
+result = 15
+console.log(result);
+```
