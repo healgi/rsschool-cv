@@ -31,3 +31,16 @@ let result = multiply(5, 3); //
 result = 15
 console.log(result);
 ```
+
+### Education:
+
+* __Ryazan College of Electronics__ 
+  + Mechatronics and mobile robotics
+* __RS Schools__ 
+  + «JavaScript/Front-end. Stage 1» (in progress)
+* JavaScript Manual on learnjavascript.ru (in progress)
+
+### Languages:
+
+* Russian _(native speaker)_
+* English _(A2)_
