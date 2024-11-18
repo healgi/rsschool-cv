@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Didact+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <title>christmas-shop</title>
 </head>
 
 
@@ -30,7 +31,7 @@
                         <a href="#" class="nav__link" id="gifts">Gifts</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__link" id="about">About</a>
+                        <a href="#about" class="nav__link" id="about">About</a>
                     </li>
                     <li class="nav__items">
                         <a href="#" class="nav__link" id="best">Best</a>
@@ -46,7 +47,7 @@
 </header>
 
 <!-- Hero -->
-<section class="hero" >
+<section class="hero" id="hero">
     <div class="container">
         <div class="hero__inner">
             <div class="hero__subtitle">Merry Christmas</div>
@@ -57,14 +58,17 @@
                     possibilities
                 </h1>
             </div>
-            <button class="hero__btn btn">Explore Magical Gifts</button>
+            <form action="gifts.html" target="_blank">
+                <button class="hero__btn btn">Explore Magical Gifts</button>
+            </form>
+            
             <div class="hero__suptitle">and Happy New Year</div>
         </div>
     </div>
 </section>
 
 <!-- About -->
-<section class="about">
+<section class="about" id="#about">
     <div class="container">
         <div class="about__inner">
 
@@ -84,7 +88,7 @@
 </section>
 
 <!-- Slier -->
-<section class="slider">
+<section class="slider" id="slider">
     <div class="container">
         <div class="slider__inner">
             <div class="slider__subtitle">Become Happier!</div>
@@ -121,7 +125,7 @@
 </section>
 
 <!-- Best Gifts -->
-<section class="gifts">
+<section class="gifts" id="gifts">
     <div class="container">
         <div class="gifts__inner">
             <div class="gifts__subtitle">Best Gifts</div>
@@ -175,7 +179,7 @@
 </section>
 
 <!-- CTA -->
-<section class="cta">
+<section class="cta" id="cta">
     <div class="container">
         <div class="cta__inner">
 
@@ -183,7 +187,11 @@
                 <div class="cta__title">Ready to start your<br>
                 journey to a better<br> version of yourself?
                 </div>
-                <button class="cta__btn btn">Explore Magical Gifts</button>
+                
+                <form action="gifts.html" target="_blank">
+                    <button class="cta__btn btn">Explore Magical Gifts</button>
+                </form>
+            
                 <div class="cta__subtitle">The New Year is Coming Soon...</div>
 
                 <div class="cta__time">
@@ -213,7 +221,7 @@
     </div>
 </section>
 
-<footer class="footer">
+<footer class="footer" id="footer">
     <div class="container">
         <div class="footer__inner">
             
