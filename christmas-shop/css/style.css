@@ -247,7 +247,9 @@ p {
 
 .about__title {
     margin-top: 20px;
+}
 
+.about__title h2 {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 24px;
@@ -308,7 +310,9 @@ p {
 
 .slider__title {
     padding-top: 12px;
+}
 
+.slider__title {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 24px;
@@ -316,7 +320,7 @@ p {
     letter-spacing: 0.16em;
     text-transform: uppercase;
     text-align: center;
-    color: var(--static-white);
+    color: var(--static-white)
 }
 
 .slider__block {
@@ -399,7 +403,9 @@ p {
 
 .gifts__title {
     padding-top: 12px;
+}
 
+.gifts__title h2 {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 24px;
@@ -515,7 +521,7 @@ p {
     flex-direction: column;
 }
 
-.cta__title {
+.cta__title h2{
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 24px;
@@ -648,6 +654,8 @@ p {
 
 .footer__text {
     margin-top: 12px;
+
+    padding-bottom: 20px;   
 
     font-family: var(--font-family);
     font-weight: 600;
